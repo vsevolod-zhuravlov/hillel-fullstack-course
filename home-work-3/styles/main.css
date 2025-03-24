@@ -1,0 +1,67 @@
+@import url("./null.css");
+
+.header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: #fff;
+    padding: 15px 0;
+    border-bottom: 1px solid #000;
+}
+
+.header__container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 250px;
+}
+
+.header__logo img {
+    width: 100%;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header__menu-item {
+    font-size: 20px;
+}
+
+.header__menu-link:hover {
+    text-decoration: underline;
+}
+
+.page {
+    padding-top: 77.4px;
+}
+
+.footer {
+    color: #fff;
+    background-color: #000;
+    padding: 30px 0;
+}
+
+.footer__container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer__text {
+    font-size: 20px;
+}

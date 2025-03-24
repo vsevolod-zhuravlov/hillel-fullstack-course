@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work 3 | Контакти</title>
+    <link rel="stylesheet" href="../styles/contacts.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="../index.html" class="header__logo">
+                <img src="../images/logo.svg" alt="Company Logo">
+            </a>
+            <nav class="header__navigation">
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a href="../index.html" class="header__menu-link">Головна</a></li>
+                    <li class="header__menu-item"><a href="about.html" class="header__menu-link">Про нас</a></li>
+                    <li class="header__menu-item"><a href="articles.html" class="header__menu-link">Статті</a></li>
+                    <li class="header__menu-item"><a href="gallery.html" class="header__menu-link">Галерея</a></li>
+                    <li class="header__menu-item"><a href="anchors.html" class="header__menu-link">Галерея із якорями</a></li>
+                    <li class="header__menu-item"><a href="contacts.html" class="header__menu-link">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Контакти</h1>
+        <section>
+            <p>Зв'язатись із нами:</p>
+            <ul>
+                <li>Email: contact@megustacompany.com</li>
+                <li>Телефон: +380 12 345 67 89</li>
+                <li>Адреса: вул. Григорія Сковориди, 1, Харків, Україна</li>
+            </ul>
+        </section>
+        <section>
+            <strong>Або заповніть форму і ми зв'яжемось із вами:</strong>
+            <form>
+                <fieldset>
+                    <legend>Вкажіть наступні дані</legend>
+        
+                    <div>
+                        <label for="name">Як до вас звертатись?</label>
+                        <input placeholder="Ім'я" type="text" id="name" name="name" required>
+                    </div>
+        
+                    <div>
+                        <label for="email">Електронна пошта:</label>
+                        <input placeholder="email@example.com" type="email" id="email" name="email" required>
+                    </div>
+
+                    <div>
+                        <label for="phone">Номер телефону (у форматі xxx-xxx-xxxx):</label>
+                        <input placeholder="000-000-0000" type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div>
+                        <label for="message">Ваше повідомлення:</label>
+                        <textarea placeholder="Повідомлення" id="message" name="message" rows="4" cols="50"></textarea>
+                    </div>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Як вам зручніше отримати відповідь?</legend>
+        
+                    <div>
+                        <label for="answer-format">Оберіть формат відповіді</label>
+                        <select id="answer-format" name="answer-format">
+                            <option value="phone">Зателефонуйте мені</option>
+                            <option value="email">Напишіть електронного листа</option>
+                        </select>
+                    </div>
+                </fieldset>
+              
+                <button type="submit">Надіслати</button>
+                <button type="reset">Скинути</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Видумана компанія. Усі права захищені.</p>
+    </footer>
+</body>
+</html>
