@@ -25,62 +25,65 @@
             </nav>
         </div>
     </header>
-    <main>
-        <h1>Контакти</h1>
-        <section>
-            <p>Зв'язатись із нами:</p>
-            <ul>
-                <li>Email: contact@megustacompany.com</li>
-                <li>Телефон: +380 12 345 67 89</li>
-                <li>Адреса: вул. Григорія Сковориди, 1, Харків, Україна</li>
-            </ul>
+    <main class="page">
+        <section class="page__contacts contacts">
+            <div class="contacts__container">
+                <h1 class="contacts__title title">Контакти</h1>
+                <h2 class="contacts__subtitle">Зв'язатись із нами:</h2>
+                <ul class="contacts__list contacts-list">
+                    <li class="contacts-list__item">Email: <a href="mailto:contact@megustacompany.com" class="contacts-list__link">contact@megustacompany.com</a></li>
+                    <li class="contacts-list__item">Телефон: +380 12 345 67 89</li>
+                    <li class="contacts-list__item">Адреса: вул. Григорія Сковориди, 1, Харків, Україна</li>
+                </ul>
+            </div>
         </section>
-        <section>
-            <strong>Або заповніть форму і ми зв'яжемось із вами:</strong>
-            <form>
-                <fieldset>
-                    <legend>Вкажіть наступні дані</legend>
-        
-                    <div>
-                        <label for="name">Як до вас звертатись?</label>
-                        <input placeholder="Ім'я" type="text" id="name" name="name" required>
+        <section class="page__form-section form-section">
+            <div class="form-section__container">
+                <h2 class="form-section__title">Або заповніть форму і ми зв'яжемось із вами:</h2>
+                <form class="form-section__form form">
+                    <div class="form__fields-wrapper">
+                        <fieldset class="form__fieldset">
+                            <legend class="form__legend">Вкажіть контактні дані:</legend>
+                            <div class="form__group">
+                                <label class="form__label" for="name">Ваше ім'я</label>
+                                <input class="form__input" placeholder="Ім'я" type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form__group">
+                                <label class="form__label" for="email">Електронна пошта</label>
+                                <input class="form__input" placeholder="email@example.com" type="email" id="email" name="email" required>
+                            </div class="form__group">
+                            <div class="form__group">
+                                <label class="form__label" for="phone">Номер телефону (у форматі xxx-xxx-xxxx)</label>
+                                <input class="form__input" placeholder="000-000-0000" type="tel" id="phone" name="phone" required>
+                            </div>
+                        </fieldset>
+                        <fieldset class="form__fieldset">
+                            <legend class="form__legend">Вкажіть повідомлення і формат відповіді:</legend>
+                            <div class="form__group">
+                                <label class="form__label" for="message">Ваше повідомлення</label>
+                                <textarea  class="form__textarea" placeholder="Повідомлення" id="message" name="message" rows="4" cols="50"></textarea>
+                            </div>
+                            <div class="form__group">
+                                <label class="form__label" for="answer-format">Оберіть формат відповіді</label>
+                                <select class="form__select" id="answer-format" name="answer-format">
+                                    <option value="phone">Зателефонуйте мені</option>
+                                    <option value="email">Напишіть електронного листа</option>
+                                </select>
+                            </div>
+                        </fieldset>
                     </div>
-        
-                    <div>
-                        <label for="email">Електронна пошта:</label>
-                        <input placeholder="email@example.com" type="email" id="email" name="email" required>
+                    <div class="form__buttons">
+                        <button class="form__button submit-button" type="submit">Надіслати</button>
+                        <button class="form__button reset-button" type="reset">Скинути</button>
                     </div>
-
-                    <div>
-                        <label for="phone">Номер телефону (у форматі xxx-xxx-xxxx):</label>
-                        <input placeholder="000-000-0000" type="tel" id="phone" name="phone" required>
-                    </div>
-
-                    <div>
-                        <label for="message">Ваше повідомлення:</label>
-                        <textarea placeholder="Повідомлення" id="message" name="message" rows="4" cols="50"></textarea>
-                    </div>
-                </fieldset>
-        
-                <fieldset>
-                    <legend>Як вам зручніше отримати відповідь?</legend>
-        
-                    <div>
-                        <label for="answer-format">Оберіть формат відповіді</label>
-                        <select id="answer-format" name="answer-format">
-                            <option value="phone">Зателефонуйте мені</option>
-                            <option value="email">Напишіть електронного листа</option>
-                        </select>
-                    </div>
-                </fieldset>
-              
-                <button type="submit">Надіслати</button>
-                <button type="reset">Скинути</button>
-            </form>
+                </form>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Видумана компанія. Усі права захищені.</p>
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__text">&copy; 2025 Видумана компанія. Усі права захищені.</p>
+        </div>
     </footer>
 </body>
 </html>

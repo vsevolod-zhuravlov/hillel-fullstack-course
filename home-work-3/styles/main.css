@@ -45,6 +45,15 @@
     padding-top: 77.4px;
 }
 
+.title {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.title:not(:last-child) {
+    margin-bottom: 50px;
+}
+
 .footer {
     color: #fff;
     background-color: #000;

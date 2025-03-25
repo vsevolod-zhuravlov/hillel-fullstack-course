@@ -1,1 +1,77 @@
 @import url("./main.css");
+
+.gallery {
+    padding: 50px 0;
+}
+
+.gallery__container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.gallery__items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery__item {
+    position: relative;
+    width: calc(33.33% - 20px);
+    border: 1px solid #000;
+    margin: 0 30px 30px 0;
+    transition: background-color 0.3s ease;
+}
+
+.gallery__item:hover {
+    background-color: #e2e2e2;
+}
+
+.gallery__item:hover .gallery__image {
+    opacity: 0.5;
+}
+
+.gallery__item:hover .gallery__ext {
+    opacity: 0;
+}
+
+.gallery__item:hover .gallery__view {
+    opacity: 1;
+}
+
+.gallery__item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.gallery__ext, .gallery__view {
+    position: absolute;
+    z-index: 50;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    text-transform: uppercase;
+}
+
+.gallery__view {
+    opacity: 0;
+}
+
+.gallery__image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: left;
+    transition: opacity 0.3s ease;
+    border-bottom: 1px solid #000;
+}
+
+.gallery__description {
+    padding: 20px;
+    font-size: 20px;
+    line-height: 150%;
+}
