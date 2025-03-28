@@ -1,1 +1,75 @@
 @import url("./main.css");
+
+.anchors {
+    padding: 50px 0;
+}
+
+.anchors__container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.anchors__header:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.anchors__title {
+}
+
+.anchors__navigation {
+}
+
+.anchors__menu {
+}
+
+.anchors__images {
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+}
+
+.menu__item {
+    flex-grow: 1;
+}
+
+.menu__item:not(:last-child) {
+    border-right: 1px solid #000;
+}
+
+.menu__link {
+    width: 100%;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.menu__item:hover {
+    background-color: #b7b7b7;
+}
+
+.images {
+
+}
+
+.images__image {
+    display: block;
+    border: 1px solid #000;
+    width: 100%;
+}
+
+.images__image:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.images__image img {
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
+.images__text {
+    padding: 30px;
+}
