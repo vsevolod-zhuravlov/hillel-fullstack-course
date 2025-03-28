@@ -1,0 +1,37 @@
+div > p {
+    background-color: yellow;
+    padding: 0;
+}
+
+.some-class {
+    background-color: #326e83;
+}
+
+#some-id {
+    background-color: #a34343;
+}
+
+[data-type="attribute"] {
+    background-color: #2f992f;
+}
+
+div section p {
+    background-color: #ff91a2;
+}
+
+div > p {
+    background-color: #d3d3d3;
+}
+
+.some-class + .sequence {
+    background-color: #00ff4c;
+}
+
+#combined.combination[data-test] {
+    background-color: #20b2aa;
+}
+
+.some-class.another-class {
+    background-color: #fafad2;
+    font-weight: bold;
+}

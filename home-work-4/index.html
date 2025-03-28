@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work 4 | Головна</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <p>Застосовується до тегів p, вкладених у div, на першому рівні, вага 2</p>
+    </div>
+    <p class="some-class">Селектор класу, вага 10</p>
+    <p class="sequence">Послідовність селекторів .some-class + .sequence, вага 20</p>
+    <p id="some-id">Селектор id, вага 100</p>
+    <p data-type="attribute">Селектор атрибута, вага 10</p>
+    <div>
+        <section>
+            <p class="nested">Вкладений селектор div section p, вага 3</p>
+        </section>
+    </div>
+    <div>
+        <p>Дочірній селектор div > p, вага 2</p>
+    </div>
+    <p id="combined" class="combination" data-test="true">Комбінація #combined.combination[data-test], вага 121</p>
+    <p class="some-class another-class">Комбінація класів .some-class.another-class, вага 20</p>
+    <p style="background-color: red; color: white">Інлайн-стиль, вага 1000</p>
+</body>
+</html>
