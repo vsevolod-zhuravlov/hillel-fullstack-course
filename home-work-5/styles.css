@@ -1,18 +1,25 @@
-@import url("./styles/null.css");
+@import url("null.css");
 
 .hero {
     padding: 150px 0;
 }
 
-.hero__container {
+.hero__container, .footer__container, .header__container {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 30px;
     display: flex;
+}
+
+.hero__container {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+.footer__container, .header__container {
+    justify-content: center;
 }
 
 .hero__title {
@@ -29,4 +36,8 @@
     font-size: 20px;
     max-width: 600px;
     line-height: 150%;
+}
+
+.header__logo {
+    display: block;
 }
