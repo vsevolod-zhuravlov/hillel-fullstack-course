@@ -38,6 +38,26 @@
     line-height: 150%;
 }
 
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+}
+
+.header__container, .footer__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .header__logo {
     display: block;
+}
+
+.footer {
+    color: #fff;
+    background-color: #000;
 }
