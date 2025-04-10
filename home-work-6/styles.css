@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap);
+* {
+    padding: 0;
+    margin: 0;
+    border: 0
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box
+}
+*::after,
+*::before {
+    display: inline-block
+}
+body,
+html {
+    height: 100%;
+    min-width: 320px
+}
+body {
+    color: #000;
+    line-height: 1;
+    font-family: "Noto Sans Mono";
+    font-size: 1rem;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+button,
+input,
+textarea {
+    font-family: "Noto Sans Mono";
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    background-color: transparent
+}
+input,
+textarea {
+    width: 100%
+}
+button,
+option,
+select {
+    cursor: pointer
+}
+a {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none
+}
+ul li {
+    list-style: none
+}
+img {
+    vertical-align: top
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit
+}
+
+table {
+    width: 750px;
+    border-collapse: collapse;
+    border: 5px solid black;
+    margin: 100px auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    background-color: lightgrey;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+}
