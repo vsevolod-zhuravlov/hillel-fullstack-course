@@ -15,7 +15,7 @@
             </a>
             <nav class="header__navigation">
                 <ul class="header__menu">
-                    <li class="header__menu-item"><a href="block-inline.html" class="header__menu-link">Block-inline</a></li>
+                    <li class="header__menu-item"><a href="block-inline.html" class="header__menu-link" style="text-decoration:underline">Block-inline</a></li>
                     <li class="header__menu-item"><a href="normalize.html" class="header__menu-link">Normalize</a></li>
                     <li class="header__menu-item"><a href="reset.html" class="header__menu-link">Reset</a></li>
                     <li class="header__menu-item"><a href="display.html" class="header__menu-link">Display</a></li>
@@ -27,11 +27,21 @@
         </div>
     </header>
     <main class="page">
-        <section class="page__hero hero">
-            <div class="hero__container">
-                <h1 class="hero__title">Домашнє завдання №7</h1>
-                <div class="hero__text">
-                    <p>Це головна сторінка. Користуючись меню у хедері можна переміщуватися сторінками сайту</p>
+        <section class="page__demo demo">
+            <div class="demo__container">
+                <h2 class="demo__title">Block та Inline елементи</h2>
+                <div class="demo__block-elements">
+                    <h3>Блокові елементи</h3>
+                    <div class="demo__box">Блок 1</div>
+                    <div class="demo__box">Блок 2</div>
+                    <div class="demo__box">Блок 3</div>
+                </div>
+                <div class="demo__inline-elements">
+                    <h3>Інлайнові елементи</h3>
+                    <p>
+                        Це текст з <span class="demo__highlight">інлайновим</span> елементом 
+                        <span class="demo__highlight">span</span>, який не ламає структуру рядка.
+                    </p>
                 </div>
             </div>
         </section>

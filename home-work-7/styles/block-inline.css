@@ -1,2 +1,15 @@
 @import url("reset.css");
 @import url("main.css");
+
+.demo__box {
+    background-color: #cce5ff;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #007bff;
+}
+
+.demo__highlight {
+    background-color: #ffd700;
+    padding: 2px 4px;
+    border-radius: 4px;
+}

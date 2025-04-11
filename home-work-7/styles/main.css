@@ -79,3 +79,20 @@ body {
 .page {
     flex: 1;
 }
+
+.demo {
+    padding-top: 50px;
+}
+
+.demo__container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.demo__title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}

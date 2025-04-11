@@ -21,21 +21,38 @@
                     <li class="header__menu-item"><a href="display.html" class="header__menu-link">Display</a></li>
                     <li class="header__menu-item"><a href="float-clear.html" class="header__menu-link">Float & clear</a></li>
                     <li class="header__menu-item"><a href="overflow.html" class="header__menu-link">Overflow</a></li>
-                    <li class="header__menu-item"><a href="position.html" class="header__menu-link">Position</a></li>
+                    <li class="header__menu-item"><a href="position.html" class="header__menu-link" style="text-decoration:underline">Position</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="page">
-        <section class="page__hero hero">
-            <div class="hero__container">
-                <h1 class="hero__title">Домашнє завдання №7</h1>
-                <div class="hero__text">
-                    <p>Це головна сторінка. Користуючись меню у хедері можна переміщуватися сторінками сайту</p>
+        <section class="page__demo demo">
+            <div class="demo__container">
+                <h2 class="demo__title">Типи позиціонування</h2>
+                <div class="demo__position-box position-static">
+                    position: static (за замовчуванням)
                 </div>
+                <div class="demo__position-box position-relative">
+                    position: relative (зміщено top/left)
+                </div>
+                <div class="demo__position-wrapper">
+                    <div class="demo__position-box position-absolute">
+                        position: absolute (відносно wrapper'а)
+                    </div>
+                </div>
+                <div class="demo__position-box position-fixed">
+                    position: fixed (залишається на місці при скролі)
+                </div>
+                <div class="demo__sticky-container">
+                    <div class="demo__position-box position-sticky">
+                        position: sticky (прилипає при скролі)
+                    </div>
+                </div>
+                <div style="height: 1000px;"></div>
             </div>
         </section>
-    </main>
+    </main>    
     <footer class="footer">
         <div class="footer__container">
             <p class="footer__text">&copy; 2025 Видумана компанія. Усі права захищені.</p>
