@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work 7 | Display</title>
+    <link rel="stylesheet" href="../styles/display.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="../index.html" class="header__logo">
+                LOGO
+            </a>
+            <nav class="header__navigation">
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a href="block-inline.html" class="header__menu-link">Block-inline</a></li>
+                    <li class="header__menu-item"><a href="normalize.html" class="header__menu-link">Normalize</a></li>
+                    <li class="header__menu-item"><a href="reset.html" class="header__menu-link">Reset</a></li>
+                    <li class="header__menu-item"><a href="display.html" class="header__menu-link" style="text-decoration:underline">Display</a></li>
+                    <li class="header__menu-item"><a href="float-clear.html" class="header__menu-link">Float & clear</a></li>
+                    <li class="header__menu-item"><a href="overflow.html" class="header__menu-link">Overflow</a></li>
+                    <li class="header__menu-item"><a href="position.html" class="header__menu-link">Position</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="page">
+        <section class="page__demo demo">
+            <div class="demo__container">
+                <h2 class="demo__title">Властивості display та box-sizing</h2>
+                <div class="demo__block-section">
+                    <h3>Display: block</h3>
+                    <div class="demo__box display-block">Це блоковий елемент</div>
+                    <div class="demo__box display-block">Ще один блоковий елемент</div>
+                </div>
+                <div class="demo__inline-section">
+                    <h3>Display: inline</h3>
+                    <span class="demo__inline display-inline">Інлайн 1</span>
+                    <span class="demo__inline display-inline">Інлайн 2</span>
+                    <span class="demo__inline display-inline">Інлайн 3</span>
+                </div>
+                <div class="demo__flex-section">
+                    <h3>Display: flex</h3>
+                    <div class="demo__flex-container">
+                        <div class="demo__flex-item">Flex 1</div>
+                        <div class="demo__flex-item">Flex 2</div>
+                        <div class="demo__flex-item">Flex 3</div>
+                    </div>
+                </div>
+                <div class="demo__box-sizing-section">
+                    <h3>Box-sizing</h3>
+                    <div class="demo__sizing demo__sizing-content-box">content-box (default)</div>
+                    <div class="demo__sizing demo__sizing-border-box">border-box</div>
+                </div>
+            </div>
+        </section>
+    </main>    
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__text">&copy; 2025 Видумана компанія. Усі права захищені.</p>
+        </div>
+    </footer>
+</body>
+</html>
